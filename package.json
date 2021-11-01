@@ -1,6 +1,6 @@
 {
   "name": "blog-vuepress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my blog",
   "main": "index.js",
   "author": "yefeng",
@@ -10,6 +10,7 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash build-docs.sh"
   }
 }
