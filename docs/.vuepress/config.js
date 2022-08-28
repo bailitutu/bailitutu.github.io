@@ -1,11 +1,3 @@
-/*
- * @Author: your name
- * @Date: 2021-11-01 11:06:56
- * @LastEditTime: 2021-11-01 11:19:56
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: /blog-vuepress/docs/.vuepress/config.js
- */
 module.exports = {
     title: '个人主页',
     description: '我的个人网站',
@@ -25,7 +17,10 @@ module.exports = {
             { text: '算法题库', link: '/algorithm/' },
             { text: '博客收藏', link: '/blogcollect/' },
         ],
-        sidebar: 'auto', // 侧边栏配置
+        sidebar: [
+            '/',
+            '/page-a',
+        ], // 侧边栏配置
         sidebarDepth: 2, // 侧边栏显示2级
     }
 };

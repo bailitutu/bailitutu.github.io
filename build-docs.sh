@@ -9,9 +9,8 @@ npm run docs:build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
-git init
 git add .
 git commit -m 'publish blog'
 
 # 部署到 https://bailitutu.github.io
-git push -u git@github.com:bailitutu/bailitutu.github.io.git blog
+git push
